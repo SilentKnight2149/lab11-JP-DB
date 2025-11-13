@@ -10,7 +10,7 @@ def square_root(x):
     except ValueError:
         raise ValueError("Cannot compute square root of negative number") 
     
-def hypoetnuse(a, b):
+def hypotenuse(a, b):
     return math.hypot(a, b)
 
 
