@@ -8,7 +8,7 @@ def square_root(x):
     try:
         return math.sqrt(x)
     except ValueError:
-        raise ValueError("Cannot compute square root of negative number") if a<0
+        raise ValueError("Cannot compute square root of negative number") 
     
 def hypoetnuse(a, b):
     return math.hypot(a, b)
