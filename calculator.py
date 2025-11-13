@@ -24,24 +24,6 @@ def div(a, b):
         raise ZeroDivisionError
     else:
         return b / a
-def log(a, b):
-    if b < 0:
-        raise ValueError
-    else:
-        return math.log(b, a)
-
-def add(a, b):
-    return a + b
-
-
-def sub(a, b):
-    return a - b
-
-def mul(a, b):
-    return a * b
-
-def power(a, b):
-    return math.pow(a, b)
 
 def log(a, base=10):
     if a <= 0:
