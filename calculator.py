@@ -1,11 +1,17 @@
 
 import math
-"""
-calculator.py
-- Defines functions used to create a simple calculator
 
-One function per operation, in order.
-"""
+def square_root(x):
+    try:
+        return math.sqrt(x)
+    except ValueError:
+        raise ValueError("Cannot compute square root of negative number") if a<0
+    
+def hypoetnuse(a, b):
+    return math.hypot(a, b)
+
+
+
 # First example
 
 import math
@@ -34,8 +40,3 @@ def log(a, b=10):
 def exp(a, b):
     return b ** a
 
-<<<<<<< HEAD
-# hello
-=======
-# hello world v4
->>>>>>> fcf75fd002de8c7c0b310ff6332eda258e923493
