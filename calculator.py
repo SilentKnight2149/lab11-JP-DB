@@ -34,4 +34,8 @@ def log(a, b=10):
 def exp(a, b):
     return b ** a
 
+<<<<<<< HEAD
 # hello
+=======
+# hello world v4
+>>>>>>> fcf75fd002de8c7c0b310ff6332eda258e923493
