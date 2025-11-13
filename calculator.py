@@ -23,7 +23,7 @@ def add(a, b):
 
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
@@ -35,7 +35,7 @@ def div(a, b):
     else:
         return b / a
 
-def log(a, b=10):
+def logarithm(a, b=10):
     if a <= 0:
         raise ValueError("Logarithm undefined for non-positive values")
     return math.log(a, b)
