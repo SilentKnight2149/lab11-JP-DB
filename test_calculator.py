@@ -1,3 +1,6 @@
+#https://github.com/SilentKnight2149/lab11-JP-DB
+#Partner 1: Jaykumar Patel
+#Partner 2: Donavan Brough
 import unittest
 from calculator import *
 
