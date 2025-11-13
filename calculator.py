@@ -7,10 +7,11 @@ calculator.py
 One function per operation, in order.
 """
 # First example
-<<<<<<< HEAD
+
 import math
 
 def add(a, b):
+
     return a + b
 
 def sub(a, b):
@@ -25,10 +26,12 @@ def div(a, b):
     else:
         return b / a
 
-def log(a, base=10):
+def log(a, b=10):
     if a <= 0:
         raise ValueError("Logarithm undefined for non-positive values")
-    return math.log(a, base)
+    return math.log(a, b)
 
 def exp(a, b):
     return b ** a
+
+# hello world
